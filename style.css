@@ -146,9 +146,8 @@ legend {
   }
 }
 
-@media (min-width: 700px) and (orientation: landscape) {
+@media (max-width: 900px) and (orientation: landscape) {
   body {
-    /* padding: 1rem 0; */
     height: 100%;
   }
 

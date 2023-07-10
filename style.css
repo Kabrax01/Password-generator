@@ -1,0 +1,180 @@
+:root {
+  --neon_green: rgb(57, 255, 20);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./img/matrix-3408060.webp);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  color: var(--neon_green);
+  font-family: "Orbitron", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: 20px;
+  border: 1px solid var(--neon_green);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 30px 60px rgba(0, 0, 0, 0.5);
+  min-width: 30rem;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.generator_main {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+  justify-content: space-between;
+  min-height: 4rem;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.generator_result {
+  padding: 0.3rem 1rem 0.3rem;
+  margin: 0.5rem 0;
+  font-family: inherit;
+  font-size: 1.2rem;
+  min-width: 18.3rem;
+  border-radius: 10px;
+  border-style: none;
+}
+
+.generator_result:focus {
+  outline: 1px solid var(--neon_green);
+}
+
+.generator_range {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.range_input {
+  min-width: 18rem;
+  height: 0.6rem;
+  margin-top: 0.5rem;
+  accent-color: var(--neon_green);
+}
+
+.option {
+  padding: 1rem;
+}
+
+.option_checkbox {
+  margin-right: 1rem;
+  cursor: pointer;
+  accent-color: var(--neon_green);
+}
+
+.generator_options {
+  border-style: none;
+  padding: 1rem 0;
+}
+
+legend {
+  padding-bottom: 0.5rem;
+  font-weight: 900;
+  padding-top: 1rem;
+  font-size: 1.3rem;
+}
+
+.button_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.button {
+  padding: 1rem;
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: 0 0 10px rgb(228, 233, 243);
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 0 0.5rem;
+  font-size: 1.1rem;
+  background: var(--neon_green);
+}
+
+.button:active {
+  transform: translateY(0.1rem);
+}
+
+.copy_container {
+  position: relative;
+}
+
+.msg {
+  position: absolute;
+  bottom: 4.5rem;
+  left: 1rem;
+  opacity: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem;
+    backdrop-filter: blur(5px);
+    min-width: 0;
+  }
+
+  .range_input {
+    min-width: 13rem;
+  }
+
+  .button_container {
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 700px) and (orientation: landscape) {
+  body {
+    /* padding: 1rem 0; */
+    height: 100%;
+  }
+
+  .container {
+    height: 100%;
+    width: 80%;
+    margin: 1rem 2rem;
+    padding: 1rem;
+  }
+
+  .generator_options {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .button_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .checkbox_label {
+    text-align: right;
+  }
+  .option {
+    padding: 0.5rem 4rem 0.5rem 0;
+  }
+}

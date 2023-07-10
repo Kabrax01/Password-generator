@@ -1,11 +1,12 @@
 # Password generator
 
-# Responive
+# Responsive
 
 ## Screenshot
 
 ![](/img/desktop.png)
 ![](/img/mobile.png)
+
 
 ## Links
 

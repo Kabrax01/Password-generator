@@ -33,31 +33,31 @@ function generator(value) {
 }
 
 generateBtn.addEventListener("click", (e) => {
-  let result = "";
+  let password = "";
   let upperLetters = upperLettersCheck.checked;
   let numbers = numbersCheck.checked;
   let specials = specialsCheck.checked;
-  let password = "abcdefghijklmnopqrstuvwxyz";
+  let characters = "abcdefghijklmnopqrstuvwxyz";
 
   function createOptionalPassword(number, special, upper) {
     if (number) {
-      password += numbersChar;
+      characters += numbersChar;
     }
     if (special) {
-      password += specialChar;
+      characters += specialChar;
     }
     if (upper) {
-      password += lettersUpper;
+      characters += lettersUpper;
     }
   }
 
   createOptionalPassword(numbers, specials, upperLetters);
 
   for (let i = 0; i < value; i++) {
-    result += password[generator(password.length)];
+    password += characters[generator(characters.length)];
   }
 
-  passwordDisplay.value = result;
+  passwordDisplay.value = password;
 });
 
 // COPY TO CLIPBOARD

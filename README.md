@@ -5,7 +5,7 @@
 ## Screenshot
 
 ![](/img/desktop.png)
-![](/mg/mobile.png)
+![](/img/mobile.png)
 
 ## Links
 

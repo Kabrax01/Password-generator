@@ -1,6 +1,6 @@
 # Password generator
 
-# Responive
+# Responsive
 
 ## Screenshot
 

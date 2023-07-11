@@ -164,7 +164,7 @@ footer {
   }
 }
 
-@media (max-width: 900px) and (orientation: landscape) {
+@media (max-height: 480px) and (orientation: landscape) {
   body {
     height: 140%;
     position: relative;

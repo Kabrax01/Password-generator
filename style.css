@@ -163,7 +163,7 @@ footer {
   }
 }
 
-@media screen and (orientation: landscape) {
+@media (orientation: landscape) {
 
   .container {
     width: 80%;

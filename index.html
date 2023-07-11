@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width = device-width, initial-scale=1.0" />
     <title>Password generator</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type=“text/css” href="style.css" />
     <script defer src="main.js"></script>
   </head>
   <body>
@@ -32,30 +35,36 @@
       <fieldset class="generator_options">
         <legend>Choose options:</legend>
         <div class="option">
-          <input type="checkbox" class="option_checkbox" id="checkbox_upper"/>
+          <input type="checkbox" class="option_checkbox" id="checkbox_upper" />
           <label class="checkbox_label">Include upper case letters</label>
         </div>
         <div class="option">
-          <input type="checkbox" class="option_checkbox" id="checkbox_number"/>
+          <input type="checkbox" class="option_checkbox" id="checkbox_number" />
           <label class="checkbox_label">Include numbers</label>
         </div>
         <div class="option">
-          <input type="checkbox" class="option_checkbox" id="checkbox_special"/>
+          <input
+            type="checkbox"
+            class="option_checkbox"
+            id="checkbox_special"
+          />
           <label class="checkbox_label">Include special characters</label>
         </div>
       </fieldset>
       <div class="button_container">
         <button class="button btn_generate" id="generate_btn">Generate</button>
         <div class="copy_container">
-        <span class="msg" id="msg">Copied !</span>
-        <button class="button btn_copy" id="copy_btn">Copy</button>
-      </div>
+          <span class="msg" id="msg">Copied !</span>
+          <button class="button btn_copy" id="copy_btn">Copy</button>
+        </div>
       </div>
     </div>
     <footer>
       Created by Arnold Rogalski
-      <a href="mailto:Arnold.Rogalski@gmail.com"><img src="./img/email.png" alt="email icon" class="e-mail"></a>
-       <!-- Background Image by <a href="https://pixabay.com/users/geralt-9301/">geralt</a> from <a href="https://pixabay.com/">Pixabay</a> -->
+      <a href="mailto:Arnold.Rogalski@gmail.com"
+        ><img src="./img/email.png" alt="email icon" class="e-mail"
+      /></a>
+      <!-- Background Image by <a href="https://pixabay.com/users/geralt-9301/">geralt</a> from <a href="https://pixabay.com/">Pixabay</a> -->
     </footer>
   </body>
 </html>

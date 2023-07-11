@@ -163,11 +163,14 @@ footer {
   }
 }
 
-@media (orientation: landscape) {
-
+@media (max-width: 900px) and (orientation: landscape) {
+  body {
+    height: 140%;
+    position: relative;
+  }
   .container {
     width: 80%;
-    margin: 12rem 2rem 1rem 2rem;
+    margin: 4rem 2rem;
     padding: 1rem;
   }
 
@@ -189,9 +192,5 @@ footer {
 
   .option {
     padding: 0.5rem 4rem 0.5rem 0;
-  }
-
-  footer {
-    opacity: 0;
   }
 }

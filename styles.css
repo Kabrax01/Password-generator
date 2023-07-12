@@ -164,35 +164,3 @@ footer {
   }
 }
 
-@media (orientation: landscape) {
-  body {
-    height: 140%;
-    position: relative;
-    background-position: center;
-  }
-  .container {
-    width: 80%;
-    margin: 4rem 2rem;
-    padding: 1rem;
-  }
-
-  .generator_options {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .button_container {
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-  }
-
-  .checkbox_label {
-    text-align: right;
-  }
-
-  .option {
-    padding: 0.5rem 4rem 0.5rem 0;
-  }
-}

@@ -4,10 +4,10 @@
 
 ## Screenshots
 
-<p display="flex">
-<img src="/img/desktop.png" width="300">
+
+<img src="/img/desktop.png" width="600">
 <img src="/img/mobile.png" width="300">
-</p>
+
 
 # Responsive
 

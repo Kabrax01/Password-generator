@@ -1,6 +1,6 @@
 # Password generator
 
-- Live Site URL: [[https://kabrax01.github.io/Weather_App/](https://kabrax01.github.io/Weather_App/](https://kabrax01.github.io/Password-generator/](https://kabrax01.github.io/Password-generator/))
+- Live Site URL: [[https://kabrax01.github.io/Weather_App/](https://kabrax01.github.io/Weather_App/
 
 ## Screenshots
 
